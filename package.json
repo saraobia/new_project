@@ -1,0 +1,51 @@
+{
+  "name": "new_project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "@primevue/themes": "^4.0.0",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@rushstack/eslint-patch": "^1.10.3",
+    "axios": "^1.6.7",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "core-js": "^3.35.1",
+    "date-fns": "^3.6.0",
+    "path": "^0.12.7",
+    "pinia": "^2.1.7",
+    "primeicons": "^6.0.1",
+    "primevue": "^4.0.0",
+    "tsyringe": "^4.8.0",
+    "vue": "^3.3.11",
+    "vue-facing-decorator": "^3.0.4",
+    "vue-i18n": "^9.2.2",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+   "@types/bootstrap": "^5.2.6",
+    "@types/jquery": "^3.5.16",
+    "@types/node": "^20.11.17",
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
+    "@typescript-eslint/parser": "^6.20.0",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "@vue/eslint-config-typescript": "^12.0.0",
+    "@babel/eslint-parser": "^7.24.8",
+    "eslint": "^8.33.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "postcss": "^8.4.33",
+    "reflect-metadata": "^0.2.1",
+    "sass": "^1.70.0",
+    "sass-loader": "^14.1.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vite-svg-loader": "^5.1.0",
+    "vue-tsc": "^1.8.25"
+  }
+}
